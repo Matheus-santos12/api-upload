@@ -1,0 +1,15 @@
+{
+  "name": "api-upload",
+  "version": "1.0.0",
+  "description": "API de upload e delete de arquivo",
+  "main": "index.js",
+  "scripts": {
+    "scrips": "tsx watch src/server.ts"
+  },
+  "keywords": [],
+  "author": "Matheus Santos",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^5.8.5"
+  }
+}
