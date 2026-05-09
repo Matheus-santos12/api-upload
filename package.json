@@ -4,12 +4,18 @@
   "description": "API de upload e delete de arquivo",
   "main": "index.js",
   "scripts": {
-    "scrips": "tsx watch src/server.ts"
+    "dev": "tsx watch src/server.ts"
   },
+  "type": "module",
   "keywords": [],
   "author": "Matheus Santos",
   "license": "ISC",
   "dependencies": {
     "fastify": "^5.8.5"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.2",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
   }
 }
